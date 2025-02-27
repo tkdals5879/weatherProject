@@ -76,6 +76,7 @@
 @media (max-width: 767px) {
   .favoriteBg .favoriteWrap {
     width: 320px;
+    height: 500px;
     left: 7%;
     transform: translateX(-50%);
   }
