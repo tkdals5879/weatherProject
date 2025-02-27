@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useDispatch, useSelector } from 'react-redux'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,6 +9,7 @@ import { setModalFav } from '../../redux/slice/LocationSlice'
 import Favorite from './favorite/Favorite'
 
 import '../../css/input/input.css'
+import WeatherInformation from '../information/WeatherInformation'
 
 
 function Input() {
@@ -43,10 +44,10 @@ function Input() {
     console.log("현재위치 기반의 날씨정보 표시")
   }
 
-
   const handleFavorite = () => {
     dispatch(setModalFav(true))
   }
+  
 
 
   return (

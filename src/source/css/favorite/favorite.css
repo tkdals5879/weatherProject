@@ -77,6 +77,7 @@
   .favoriteBg .favoriteWrap {
     width: 320px;
     height: 500px;
+    top: 50px;
     left: 7%;
     transform: translateX(-50%);
   }
