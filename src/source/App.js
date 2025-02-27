@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import './css/app.css'
 import { useDispatch, useSelector } from 'react-redux';
-import { useGetWeather } from "./hooks/useGetWeather";
 
 import Nav from "./navigation/Nav";
 import Main from "./component/Main";
@@ -18,7 +17,7 @@ function App() {
   const [activeIndex,setActiveIndex] = useState(0)
   // 최초렌더링 시 날씨화면이 보이도록 설정 [ 0 = 날씨 / 1 = 뉴스 ]
 
-  const {currentLocation} = useSelector((state) => state.location.currentLocation)
+  // const {currentLocation} = useSelector((state) => state.location.currentLocation)
 
 
 

@@ -40,7 +40,7 @@ function WeatherInformation() {
   const { data: C_data } = useRestCountries()
   // console.log("C_data > ", C_data)
 
-  const findCountry = C_data?.find(item => item.cca2 === W_data?.sys?.country);
+  // const findCountry = C_data?.find(item => item.cca2 === W_data?.sys?.country);
   // useEffect(() => { console.log("findCountry > ", findCountry) }, [findCountry])
 
   const weatherData = W_data;

@@ -20,7 +20,7 @@ function Input() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (cityName == '') {
+    if (cityName === '') {
       alert("입력값이 없어 현재위치기반의 날씨를 불러옵니다.")
     }
     dispatch(setCityName(cityName.toLowerCase()));
