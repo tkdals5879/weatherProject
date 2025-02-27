@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { Routes, Route } from "react-router-dom";
 import './css/app.css'
 import { useDispatch } from 'react-redux';
@@ -23,13 +23,13 @@ function App() {
 
 // ////////////////////////////////////////////////////////////////////// 현재위치 위,경도 값 받아오기 ▼ 
 
-  const getCurrentLocation = () => {
+  const getCurrentLocation = useCallback(() => {
     navigator.geolocation.getCurrentPosition((position) => {
       let lat = position.coords.latitude
       let lng = position.coords.longitude
       dispatch(setCurrentLocation({ lat, lng }))
     })
-  }
+  }, [dispatch]);
 
   useEffect(() => {
     getCurrentLocation();
