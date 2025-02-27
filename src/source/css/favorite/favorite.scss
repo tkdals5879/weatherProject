@@ -1,0 +1,76 @@
+.favoriteBg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #0000002f;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+  .favoriteWrap {
+    width: 500px;
+    height: 700px;
+    max-height: 700px;
+    padding: 2rem;
+    position: fixed;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px #555;
+    top: 100px;
+    left: 25%;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    h2 {
+      align-content: center;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    >button {
+      padding: .5rem;
+      border: none;
+      background-color: transparent;
+      color: #fff;
+      font-size: 36px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      height: 70px;
+      background-color: #55555580;
+      border-radius: 20px;
+      align-items: center;
+      padding: 0 1rem;
+
+      button {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        padding: .5rem;
+        cursor: pointer;
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+  }
+}

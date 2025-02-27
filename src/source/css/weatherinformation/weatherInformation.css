@@ -1,0 +1,190 @@
+.weatherInformation {
+  min-height: 500px;
+  margin-bottom: 1rem;
+}
+.weatherInformation .headerWrap {
+  position: absolute;
+  top: 2rem;
+  right: 200px;
+  display: flex;
+  gap: 36px;
+}
+.weatherInformation .headerWrap > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.weatherInformation .headerWrap > div h1 {
+  font-size: 72px;
+  color: #fff;
+  cursor: pointer;
+}
+.weatherInformation .headerWrap > div p {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1rem;
+}
+.weatherInformation .headerWrap button {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 64px;
+}
+.weatherInformation .bodyWrap {
+  display: flex;
+  position: relative;
+}
+.weatherInformation .bodyWrap .temp {
+  margin-top: 2rem;
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+.weatherInformation .bodyWrap .temp .icon {
+  margin-top: 2rem;
+}
+.weatherInformation .bodyWrap .temp img {
+  width: 500px;
+}
+.weatherInformation .bodyWrap .temp p {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+}
+.weatherInformation .bodyWrap .detailInfo .iconbox {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  font-size: 24px;
+  color: #efefef;
+}
+.weatherInformation .bodyWrap .detailInfo > div {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.weatherInformation .bodyWrap .detailInfo > div p {
+  color: #fff;
+}
+.weatherInformation .bodyWrap .detailInfo .ib_1 {
+  position: absolute;
+  top: 60px;
+  left: 470px;
+}
+.weatherInformation .bodyWrap .detailInfo .ib_2 {
+  position: absolute;
+  top: 120px;
+  left: 520px;
+}
+.weatherInformation .bodyWrap .detailInfo .ib_3 {
+  position: absolute;
+  top: 190px;
+  left: 550px;
+}
+.weatherInformation .bodyWrap .detailInfo .ib_4 {
+  position: absolute;
+  top: 260px;
+  left: 520px;
+}
+.weatherInformation .bodyWrap .detailInfo .ib_5 {
+  position: absolute;
+  top: 320px;
+  left: 470px;
+}
+.weatherInformation .bodyWrap .nowWrap {
+  position: absolute;
+  top: 270px;
+  right: 270px;
+}
+.weatherInformation .bodyWrap .nowWrap .nowTemp {
+  display: block;
+  font-size: 72px;
+  color: #fff;
+  font-weight: 400;
+}
+.weatherInformation .bodyWrap .nowWrap p {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+.infoBox {
+  width: 380px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1254901961);
+  backdrop-filter: blur(60px);
+  padding: 1rem;
+  border-radius: 50px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+@media (max-width: 1400px) {
+  .weatherInformation .headerWrap {
+    position: unset;
+    justify-content: center;
+  }
+  .weatherInformation .bodyWrap .temp {
+    margin-top: 0;
+  }
+  .weatherInformation .bodyWrap .temp .icon {
+    margin-top: 0;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_1 {
+    top: 10px;
+    left: 480px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_2 {
+    top: 70px;
+    left: 520px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_3 {
+    top: 130px;
+    left: 540px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_4 {
+    top: 190px;
+    left: 520px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_5 {
+    top: 250px;
+    left: 480px;
+  }
+  .weatherInformation .bodyWrap .nowWrap {
+    position: unset;
+    margin-left: auto;
+    margin-right: 4rem;
+    margin-top: 7rem;
+  }
+}
+@media (max-width: 1100px) {
+  .weatherInformation .bodyWrap .detailInfo .ib_1 {
+    left: 400px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_2 {
+    left: 440px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_3 {
+    left: 480px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_4 {
+    left: 440px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_5 {
+    left: 400px;
+  }
+  .weatherInformation .bodyWrap .nowWrap {
+    margin: auto;
+    margin-top: 23rem;
+    margin-bottom: 3rem;
+  }
+  .weatherInformation .bodyWrap .temp {
+    left: 0;
+  }
+}
+
+/*# sourceMappingURL=weatherInformation.css.map */

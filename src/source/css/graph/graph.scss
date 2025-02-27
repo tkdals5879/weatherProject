@@ -1,0 +1,38 @@
+.graph{
+  width: 100%;
+  margin: auto;
+}
+
+.swiper-wrapper {
+  display: flex;
+  padding: 0 1.5rem;
+}
+
+.swiper-slide {
+  width: auto;
+  margin-left: 32px;
+  padding: 1.5rem;
+  border: 1px solid #efefef;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out;
+  &:last-child{
+    margin-right: 32px;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+
+
+// ////////////////////////////////////////////////////
+
+@media (max-width: 1100px) {
+  .swiper-slide {
+    min-width: calc(100% / 3);
+    padding: 1rem;
+  }
+}

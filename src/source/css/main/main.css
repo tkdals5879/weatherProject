@@ -1,0 +1,9 @@
+.mainWrap {
+  width: 100%;
+}
+.mainWrap .informationWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=main.css.map */

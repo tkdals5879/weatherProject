@@ -1,0 +1,16 @@
+.restCountriesWrap {
+  padding: 0 1rem;
+  text-align: center;
+}
+.restCountriesWrap h1 {
+  margin-bottom: 1rem;
+}
+.restCountriesWrap img {
+  margin-bottom: 1rem;
+}
+.restCountriesWrap p {
+  line-height: 25px;
+  text-align: left;
+}
+
+/*# sourceMappingURL=restCountries.css.map */

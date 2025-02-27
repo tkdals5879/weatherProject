@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+// font-family: "Noto Sans KR", serif;
+//  >> 한국어폰트
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+// font-family: "Roboto", serif;
+//  >> 영어폰트
+
+// 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body{
+  font-family: "Noto Sans KR", serif;
+}
+
+
+// //////////////////////////////////////////////////////////////////// 기본 선택자
+
+
+
+
+
+// ////////////////////////////////////////////////////////////////////
+
+.appWrap {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  transition: background-image 0.3s;
+
+  &.weatherBg {
+    background-image: url('/public/weatherBg.jpg');
+  }
+
+  &.newsBg {
+    background-image: url('/public/newsBg.jpg');
+  }
+
+  .appInner {
+    width: 1400px;
+    height: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    backdrop-filter: blur(15px);
+    border: 3px solid rgba(255, 255, 255, 0.47);
+    overflow-y: scroll;
+    box-shadow: 3px 3px 5px rgba(239, 239, 239, 0.22);
+
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    .appComponentWrap {
+      position: relative;
+      width: 100%;
+    }
+  }
+}
+
+
+// ////////////////////////////////////////////////////////////////////
+
+
+@media (max-width:1400px) {
+  .appInner{
+    max-width: 1000px;
+  }
+}
+
+@media (max-width:1100px) {
+  .appInner{
+    max-width: 700px;
+  }
+}

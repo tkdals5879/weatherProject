@@ -1,0 +1,21 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "globals": {
+      "google": "readonly"  // google 객체를 전역으로 인식하게 설정
+    },
+    "extends": [
+      "react-app",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  }
+  

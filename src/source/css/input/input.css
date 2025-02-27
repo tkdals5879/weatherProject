@@ -1,0 +1,65 @@
+.inputWrap {
+  width: 100%;
+}
+.inputWrap form {
+  width: 100%;
+  padding: 0 1rem;
+  height: 70px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.087272409) 35%, rgba(255, 255, 255, 0.4738270308) 100%);
+  border: none;
+  border-radius: 30px 30px 0 0;
+  outline: none;
+  position: relative;
+  display: flex;
+  color: #fff;
+}
+.inputWrap form > button {
+  background-color: transparent;
+  border: none;
+  padding: 0 24px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+.inputWrap form input {
+  width: 100%;
+  height: 100%;
+  padding-left: 8px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+}
+.inputWrap form input::placeholder {
+  color: #efefef;
+}
+.inputWrap form .btnWrap {
+  height: 100%;
+  position: absolute;
+  top: 12px;
+  right: 24px;
+  display: flex;
+  gap: 12px;
+}
+.inputWrap form .btnWrap .searchBtn {
+  width: 100px;
+  height: calc(100% - 24px);
+  border-radius: 30px 0 0 30px;
+  border: 1px solid rgba(255, 255, 255, 0.4784313725);
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+.inputWrap form .btnWrap .favBtn {
+  width: 100px;
+  height: calc(100% - 24px);
+  border-radius: 0 30px 30px 0;
+  border: 1px solid rgba(255, 255, 255, 0.4784313725);
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=input.css.map */

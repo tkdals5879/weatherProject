@@ -1,0 +1,70 @@
+.favoriteBg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.1843137255);
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.favoriteBg .favoriteWrap {
+  width: 500px;
+  height: 700px;
+  max-height: 700px;
+  padding: 2rem;
+  position: fixed;
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0px 0px 10px #555;
+  top: 100px;
+  left: 25%;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+.favoriteBg .favoriteWrap::-webkit-scrollbar {
+  width: 0px;
+}
+.favoriteBg .favoriteWrap h2 {
+  align-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.favoriteBg .favoriteWrap > button {
+  padding: 0.5rem;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 36px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.favoriteBg ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.favoriteBg ul li {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: rgba(85, 85, 85, 0.5019607843);
+  border-radius: 20px;
+  align-items: center;
+  padding: 0 1rem;
+}
+.favoriteBg ul li button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.favoriteBg ul li button:hover {
+  color: orange;
+}
+
+/*# sourceMappingURL=favorite.css.map */
