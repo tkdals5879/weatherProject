@@ -3,8 +3,9 @@ import rain from '../../../shower rain.json'
 
 function Rain() {
   return (
-    <Lottie animationData={rain} loop={true} style={{width:'360px', margin:'auto'}}/>
-
+    <div className="lottie">
+      <Lottie animationData={rain} loop={true} className="lottieContainer" />
+    </div>
   )
 }
 

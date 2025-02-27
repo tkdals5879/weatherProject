@@ -3,8 +3,9 @@ import mist from '../../../mist.json'
 
 function Mist() {
   return (
-    <Lottie animationData={mist} loop={true} style={{width:'360px', margin:'auto'}}/>
-
+    <div className="lottie">
+      <Lottie animationData={mist} loop={true} className="lottieContainer" />
+    </div>
   )
 }
 

@@ -3,8 +3,9 @@ import snow from '../../../snow.json'
 
 function Snow() {
   return (
-    <Lottie animationData={snow} loop={true} style={{width:'360px', margin:'auto'}}/>
-
+    <div className="lottie">
+      <Lottie animationData={snow} loop={true} className="lottieContainer" />
+    </div>
   )
 }
 

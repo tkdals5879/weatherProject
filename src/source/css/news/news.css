@@ -54,6 +54,9 @@
 }
 
 @media (max-width: 1100px) {
+  .newsWrap ul {
+    grid-template-columns: 1fr;
+  }
   .newsWrap ul li a > div p {
     font-size: 16px;
   }

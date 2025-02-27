@@ -42,8 +42,8 @@
 .weatherInformation .bodyWrap .temp .icon {
   margin-top: 2rem;
 }
-.weatherInformation .bodyWrap .temp img {
-  width: 500px;
+.weatherInformation .bodyWrap .temp .icon .lottie {
+  width: 360px;
 }
 .weatherInformation .bodyWrap .temp p {
   color: #fff;
@@ -184,6 +184,52 @@
   }
   .weatherInformation .bodyWrap .temp {
     left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .weatherInformation .headerWrap > div h1 {
+    font-size: 40px;
+    margin-bottom: 2rem;
+    margin-left: 50px;
+  }
+  .weatherInformation .headerWrap button {
+    font-size: 20px;
+  }
+  .weatherInformation .bodyWrap .temp {
+    max-width: 100%;
+    top: 60px;
+    left: 100px;
+    transform: translateX(-50%);
+  }
+  .weatherInformation .bodyWrap .temp .icon .lottie {
+    width: 200px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_1 {
+    left: 180px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_2 {
+    top: 55px;
+    left: 210px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_3 {
+    top: 100px;
+    left: 240px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_4 {
+    top: 145px;
+    left: 210px;
+  }
+  .weatherInformation .bodyWrap .detailInfo .ib_5 {
+    top: 190px;
+    left: 180px;
+  }
+  .weatherInformation .bodyWrap .nowWrap {
+    margin-top: 20rem;
+  }
+  .weatherInformation .bodyWrap .nowWrap .nowTemp {
+    padding-top: 2rem;
+    font-size: 64px;
+    border-top: 2px solid #fff;
   }
 }
 

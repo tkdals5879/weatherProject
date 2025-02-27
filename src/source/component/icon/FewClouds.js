@@ -3,8 +3,9 @@ import fewClouds from '../../../few clouds.json'
 
 function FewClouds() {
   return (
-    <Lottie animationData={fewClouds} loop={true} style={{width:'360px', margin:'auto'}}/>
-
+    <div className="lottie">
+      <Lottie animationData={fewClouds} loop={true} className="lottieContainer" />
+    </div>
   )
 }
 

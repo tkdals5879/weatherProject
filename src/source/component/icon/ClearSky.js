@@ -3,9 +3,9 @@ import clearSky from '../../../clear sky.json'
 
 function ClearSky () {
   return(
-    <>
-    <Lottie animationData={clearSky} loop={true} style={{width:'360px', margin:'auto'}}/>
-    </>
+    <div className="lottie">
+    <Lottie animationData={clearSky} loop={true} className="lottieContainer"/>
+    </div>
   )
 }
 

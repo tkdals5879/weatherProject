@@ -3,7 +3,9 @@ import thunderStorm from '../../../thunderstorm.json'
 
 function ThunderStorm() {
   return (
-    <Lottie animationData={thunderStorm} loop={true} style={{width:'360px', margin:'auto'}}/>
+    <div className="lottie">
+      <Lottie animationData={thunderStorm} loop={true} className="lottieContainer" />
+    </div>
 
   )
 }

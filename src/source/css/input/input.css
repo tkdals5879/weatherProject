@@ -62,4 +62,17 @@
   cursor: pointer;
 }
 
+@media (max-width: 767px) {
+  .inputWrap form input {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .searchBtn {
+    display: none;
+  }
+  .favBtn {
+    color: #fff;
+  }
+}
+
 /*# sourceMappingURL=input.css.map */
