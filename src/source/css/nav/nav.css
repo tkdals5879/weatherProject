@@ -36,4 +36,13 @@
   color: #9CC0F9;
 }
 
+@media (max-width: 767px) {
+  .navWrap {
+    top: 80px;
+  }
+  .navWrap button {
+    width: 80px;
+  }
+}
+
 /*# sourceMappingURL=nav.css.map */
