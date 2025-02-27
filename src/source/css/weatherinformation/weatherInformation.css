@@ -238,6 +238,9 @@
     padding-bottom: 2.5rem;
     border-bottom: 2px solid #efefef;
   }
+  .infoBox {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=weatherInformation.css.map */
