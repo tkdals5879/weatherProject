@@ -35,7 +35,7 @@ function News() {
   // console.log("newsDatas >>>>>>>>>>>>>", newsDatas)
 
   if (isLoading) {
-    return (<><h1>Loading...</h1> <Loading /> </>)
+    return (<> <Loading /> </>)
     // 로딩 컴포넌트 만들어야함 > 로딩 스피너 gif를 활용해도될듯
   }
   if (isError) {

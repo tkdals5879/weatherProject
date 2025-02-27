@@ -32,5 +32,11 @@
     padding: 1rem;
   }
 }
+@media (max-width: 767px) {
+  .swiper-slide {
+    min-width: 50%;
+    padding: 1rem;
+  }
+}
 
 /*# sourceMappingURL=graph.css.map */

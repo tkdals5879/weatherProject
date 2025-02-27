@@ -187,17 +187,20 @@
   }
 }
 @media (max-width: 767px) {
+  .weatherInformation {
+    margin-bottom: 5rem;
+  }
   .weatherInformation .headerWrap > div h1 {
     font-size: 40px;
     margin-bottom: 2rem;
     margin-left: 50px;
   }
   .weatherInformation .headerWrap button {
-    font-size: 20px;
+    font-size: 16px;
   }
   .weatherInformation .bodyWrap .temp {
     max-width: 100%;
-    top: 60px;
+    top: 200px;
     left: 100px;
     transform: translateX(-50%);
   }
@@ -205,31 +208,35 @@
     width: 200px;
   }
   .weatherInformation .bodyWrap .detailInfo .ib_1 {
+    top: 170px;
     left: 180px;
   }
   .weatherInformation .bodyWrap .detailInfo .ib_2 {
-    top: 55px;
-    left: 210px;
+    top: 210px;
+    left: 190px;
   }
   .weatherInformation .bodyWrap .detailInfo .ib_3 {
-    top: 100px;
-    left: 240px;
+    top: 250px;
+    left: 200px;
   }
   .weatherInformation .bodyWrap .detailInfo .ib_4 {
-    top: 145px;
-    left: 210px;
+    top: 290px;
+    left: 190px;
   }
   .weatherInformation .bodyWrap .detailInfo .ib_5 {
-    top: 190px;
+    top: 330px;
     left: 180px;
   }
   .weatherInformation .bodyWrap .nowWrap {
-    margin-top: 20rem;
+    margin-top: -1rem;
   }
   .weatherInformation .bodyWrap .nowWrap .nowTemp {
-    padding-top: 2rem;
     font-size: 64px;
-    border-top: 2px solid #fff;
+    text-align: center;
+  }
+  .weatherInformation .bodyWrap .nowWrap p {
+    padding-bottom: 2.5rem;
+    border-bottom: 2px solid #555;
   }
 }
 

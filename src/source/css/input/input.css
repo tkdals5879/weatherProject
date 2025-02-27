@@ -67,11 +67,17 @@
     font-size: 16px;
     letter-spacing: 1px;
   }
-  .searchBtn {
+  .inputWrap form .btnWrap {
+    right: 0;
+  }
+  .inputWrap form .btnWrap .searchBtn {
     display: none;
   }
-  .favBtn {
-    color: #fff;
+  .inputWrap form .btnWrap .favBtn {
+    color: rgb(221, 188, 0);
+    border: none;
+    backdrop-filter: none;
+    font-size: 24px;
   }
 }
 

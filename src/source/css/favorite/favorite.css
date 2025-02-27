@@ -14,7 +14,7 @@
   padding: 2rem;
   position: fixed;
   border-radius: 20px;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.2823529412);
   box-shadow: 0px 0px 10px #555;
   top: 100px;
   left: 25%;
@@ -65,6 +65,20 @@
 }
 .favoriteBg ul li button:hover {
   color: orange;
+}
+
+@media (max-width: 1100px) {
+  .favoriteBg .favoriteWrap {
+    left: 10%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 767px) {
+  .favoriteBg .favoriteWrap {
+    width: 320px;
+    left: 10%;
+    transform: translateX(-50%);
+  }
 }
 
 /*# sourceMappingURL=favorite.css.map */

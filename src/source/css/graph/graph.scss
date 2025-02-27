@@ -36,3 +36,10 @@
     padding: 1rem;
   }
 }
+
+@media (max-width: 767px) {
+  .swiper-slide {
+    min-width: calc(100% / 2);
+    padding: 1rem;
+  }
+}
