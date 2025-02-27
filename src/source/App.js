@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import './css/app.css'
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import Nav from "./navigation/Nav";
 import Main from "./component/Main";
@@ -33,7 +33,7 @@ function App() {
 
   useEffect(() => {
     getCurrentLocation();
-  }, [])
+  }, [getCurrentLocation])
 
 
 
