@@ -236,7 +236,7 @@
   }
   .weatherInformation .bodyWrap .nowWrap p {
     padding-bottom: 2.5rem;
-    border-bottom: 2px solid #555;
+    border-bottom: 2px solid #efefef;
   }
 }
 
